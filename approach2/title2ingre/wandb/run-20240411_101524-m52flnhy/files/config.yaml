@@ -1,0 +1,1602 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.14
+    cli_version: 0.16.6
+    framework: huggingface
+    huggingface_version: 4.39.3
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1712823324.0
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      - 100
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      - 100
+      3:
+      - 2
+      - 7
+      - 23
+      - 62
+      4: 3.10.14
+      5: 0.16.6
+      6: 4.39.3
+      8:
+      - 5
+      9:
+        1: transformers_trainer
+      13: linux-x86_64
+    m:
+    - 1: train/global_step
+      6:
+      - 3
+    - 1: train/loss
+      5: 1
+      6:
+      - 1
+    - 1: train/grad_norm
+      5: 1
+      6:
+      - 1
+    - 1: train/learning_rate
+      5: 1
+      6:
+      - 1
+    - 1: train/epoch
+      5: 1
+      6:
+      - 1
+    - 1: eval/loss
+      5: 1
+      6:
+      - 1
+    - 1: eval/accuracy
+      5: 1
+      6:
+      - 1
+    - 1: eval/macro_f1
+      5: 1
+      6:
+      - 1
+    - 1: eval/macro_precision
+      5: 1
+      6:
+      - 1
+    - 1: eval/macro_recall
+      5: 1
+      6:
+      - 1
+    - 1: eval/micro_f1
+      5: 1
+      6:
+      - 1
+    - 1: eval/micro_precision
+      5: 1
+      6:
+      - 1
+    - 1: eval/micro_recall
+      5: 1
+      6:
+      - 1
+    - 1: eval/combined_score
+      5: 1
+      6:
+      - 1
+    - 1: eval/runtime
+      5: 1
+      6:
+      - 1
+    - 1: eval/samples_per_second
+      5: 1
+      6:
+      - 1
+    - 1: eval/steps_per_second
+      5: 1
+      6:
+      - 1
+return_dict:
+  desc: null
+  value: true
+output_hidden_states:
+  desc: null
+  value: false
+output_attentions:
+  desc: null
+  value: false
+torchscript:
+  desc: null
+  value: false
+torch_dtype:
+  desc: null
+  value: null
+use_bfloat16:
+  desc: null
+  value: false
+tf_legacy_loss:
+  desc: null
+  value: false
+pruned_heads:
+  desc: null
+  value: {}
+tie_word_embeddings:
+  desc: null
+  value: true
+chunk_size_feed_forward:
+  desc: null
+  value: 0
+is_encoder_decoder:
+  desc: null
+  value: false
+is_decoder:
+  desc: null
+  value: false
+cross_attention_hidden_size:
+  desc: null
+  value: null
+add_cross_attention:
+  desc: null
+  value: false
+tie_encoder_decoder:
+  desc: null
+  value: false
+max_length:
+  desc: null
+  value: 20
+min_length:
+  desc: null
+  value: 0
+do_sample:
+  desc: null
+  value: false
+early_stopping:
+  desc: null
+  value: false
+num_beams:
+  desc: null
+  value: 1
+num_beam_groups:
+  desc: null
+  value: 1
+diversity_penalty:
+  desc: null
+  value: 0.0
+temperature:
+  desc: null
+  value: 1.0
+top_k:
+  desc: null
+  value: 50
+top_p:
+  desc: null
+  value: 1.0
+typical_p:
+  desc: null
+  value: 1.0
+repetition_penalty:
+  desc: null
+  value: 1.0
+length_penalty:
+  desc: null
+  value: 1.0
+no_repeat_ngram_size:
+  desc: null
+  value: 0
+encoder_no_repeat_ngram_size:
+  desc: null
+  value: 0
+bad_words_ids:
+  desc: null
+  value: null
+num_return_sequences:
+  desc: null
+  value: 1
+output_scores:
+  desc: null
+  value: false
+return_dict_in_generate:
+  desc: null
+  value: false
+forced_bos_token_id:
+  desc: null
+  value: null
+forced_eos_token_id:
+  desc: null
+  value: null
+remove_invalid_values:
+  desc: null
+  value: false
+exponential_decay_length_penalty:
+  desc: null
+  value: null
+suppress_tokens:
+  desc: null
+  value: null
+begin_suppress_tokens:
+  desc: null
+  value: null
+architectures:
+  desc: null
+  value: null
+finetuning_task:
+  desc: null
+  value: text-classification
+id2label:
+  desc: null
+  value:
+    '0': LABEL_0
+    '1': LABEL_1
+    '2': LABEL_2
+    '3': LABEL_3
+    '4': LABEL_4
+    '5': LABEL_5
+    '6': LABEL_6
+    '7': LABEL_7
+    '8': LABEL_8
+    '9': LABEL_9
+    '10': LABEL_10
+    '11': LABEL_11
+    '12': LABEL_12
+    '13': LABEL_13
+    '14': LABEL_14
+    '15': LABEL_15
+    '16': LABEL_16
+    '17': LABEL_17
+    '18': LABEL_18
+    '19': LABEL_19
+    '20': LABEL_20
+    '21': LABEL_21
+    '22': LABEL_22
+    '23': LABEL_23
+    '24': LABEL_24
+    '25': LABEL_25
+    '26': LABEL_26
+    '27': LABEL_27
+    '28': LABEL_28
+    '29': LABEL_29
+    '30': LABEL_30
+    '31': LABEL_31
+    '32': LABEL_32
+    '33': LABEL_33
+    '34': LABEL_34
+    '35': LABEL_35
+    '36': LABEL_36
+    '37': LABEL_37
+    '38': LABEL_38
+    '39': LABEL_39
+    '40': LABEL_40
+    '41': LABEL_41
+    '42': LABEL_42
+    '43': LABEL_43
+    '44': LABEL_44
+    '45': LABEL_45
+    '46': LABEL_46
+    '47': LABEL_47
+    '48': LABEL_48
+    '49': LABEL_49
+    '50': LABEL_50
+    '51': LABEL_51
+    '52': LABEL_52
+    '53': LABEL_53
+    '54': LABEL_54
+    '55': LABEL_55
+    '56': LABEL_56
+    '57': LABEL_57
+    '58': LABEL_58
+    '59': LABEL_59
+    '60': LABEL_60
+    '61': LABEL_61
+    '62': LABEL_62
+    '63': LABEL_63
+    '64': LABEL_64
+    '65': LABEL_65
+    '66': LABEL_66
+    '67': LABEL_67
+    '68': LABEL_68
+    '69': LABEL_69
+    '70': LABEL_70
+    '71': LABEL_71
+    '72': LABEL_72
+    '73': LABEL_73
+    '74': LABEL_74
+    '75': LABEL_75
+    '76': LABEL_76
+    '77': LABEL_77
+    '78': LABEL_78
+    '79': LABEL_79
+    '80': LABEL_80
+    '81': LABEL_81
+    '82': LABEL_82
+    '83': LABEL_83
+    '84': LABEL_84
+    '85': LABEL_85
+    '86': LABEL_86
+    '87': LABEL_87
+    '88': LABEL_88
+    '89': LABEL_89
+    '90': LABEL_90
+    '91': LABEL_91
+    '92': LABEL_92
+    '93': LABEL_93
+    '94': LABEL_94
+    '95': LABEL_95
+    '96': LABEL_96
+    '97': LABEL_97
+    '98': LABEL_98
+    '99': LABEL_99
+    '100': LABEL_100
+    '101': LABEL_101
+    '102': LABEL_102
+    '103': LABEL_103
+    '104': LABEL_104
+    '105': LABEL_105
+    '106': LABEL_106
+    '107': LABEL_107
+    '108': LABEL_108
+    '109': LABEL_109
+    '110': LABEL_110
+    '111': LABEL_111
+    '112': LABEL_112
+    '113': LABEL_113
+    '114': LABEL_114
+    '115': LABEL_115
+    '116': LABEL_116
+    '117': LABEL_117
+    '118': LABEL_118
+    '119': LABEL_119
+    '120': LABEL_120
+    '121': LABEL_121
+    '122': LABEL_122
+    '123': LABEL_123
+    '124': LABEL_124
+    '125': LABEL_125
+    '126': LABEL_126
+    '127': LABEL_127
+    '128': LABEL_128
+    '129': LABEL_129
+    '130': LABEL_130
+    '131': LABEL_131
+    '132': LABEL_132
+    '133': LABEL_133
+    '134': LABEL_134
+    '135': LABEL_135
+    '136': LABEL_136
+    '137': LABEL_137
+    '138': LABEL_138
+    '139': LABEL_139
+    '140': LABEL_140
+    '141': LABEL_141
+    '142': LABEL_142
+    '143': LABEL_143
+    '144': LABEL_144
+    '145': LABEL_145
+    '146': LABEL_146
+    '147': LABEL_147
+    '148': LABEL_148
+    '149': LABEL_149
+    '150': LABEL_150
+    '151': LABEL_151
+    '152': LABEL_152
+    '153': LABEL_153
+    '154': LABEL_154
+    '155': LABEL_155
+    '156': LABEL_156
+    '157': LABEL_157
+    '158': LABEL_158
+    '159': LABEL_159
+    '160': LABEL_160
+    '161': LABEL_161
+    '162': LABEL_162
+    '163': LABEL_163
+    '164': LABEL_164
+    '165': LABEL_165
+    '166': LABEL_166
+    '167': LABEL_167
+    '168': LABEL_168
+    '169': LABEL_169
+    '170': LABEL_170
+    '171': LABEL_171
+    '172': LABEL_172
+    '173': LABEL_173
+    '174': LABEL_174
+    '175': LABEL_175
+    '176': LABEL_176
+    '177': LABEL_177
+    '178': LABEL_178
+    '179': LABEL_179
+    '180': LABEL_180
+    '181': LABEL_181
+    '182': LABEL_182
+    '183': LABEL_183
+    '184': LABEL_184
+    '185': LABEL_185
+    '186': LABEL_186
+    '187': LABEL_187
+    '188': LABEL_188
+    '189': LABEL_189
+    '190': LABEL_190
+    '191': LABEL_191
+    '192': LABEL_192
+    '193': LABEL_193
+    '194': LABEL_194
+    '195': LABEL_195
+    '196': LABEL_196
+    '197': LABEL_197
+    '198': LABEL_198
+    '199': LABEL_199
+    '200': LABEL_200
+    '201': LABEL_201
+    '202': LABEL_202
+    '203': LABEL_203
+    '204': LABEL_204
+    '205': LABEL_205
+    '206': LABEL_206
+    '207': LABEL_207
+    '208': LABEL_208
+    '209': LABEL_209
+    '210': LABEL_210
+    '211': LABEL_211
+    '212': LABEL_212
+    '213': LABEL_213
+    '214': LABEL_214
+    '215': LABEL_215
+    '216': LABEL_216
+    '217': LABEL_217
+    '218': LABEL_218
+    '219': LABEL_219
+    '220': LABEL_220
+    '221': LABEL_221
+    '222': LABEL_222
+    '223': LABEL_223
+    '224': LABEL_224
+    '225': LABEL_225
+    '226': LABEL_226
+    '227': LABEL_227
+    '228': LABEL_228
+    '229': LABEL_229
+    '230': LABEL_230
+    '231': LABEL_231
+    '232': LABEL_232
+    '233': LABEL_233
+    '234': LABEL_234
+    '235': LABEL_235
+    '236': LABEL_236
+    '237': LABEL_237
+    '238': LABEL_238
+    '239': LABEL_239
+    '240': LABEL_240
+    '241': LABEL_241
+    '242': LABEL_242
+    '243': LABEL_243
+    '244': LABEL_244
+    '245': LABEL_245
+    '246': LABEL_246
+    '247': LABEL_247
+    '248': LABEL_248
+    '249': LABEL_249
+    '250': LABEL_250
+    '251': LABEL_251
+    '252': LABEL_252
+    '253': LABEL_253
+    '254': LABEL_254
+    '255': LABEL_255
+    '256': LABEL_256
+    '257': LABEL_257
+    '258': LABEL_258
+    '259': LABEL_259
+    '260': LABEL_260
+    '261': LABEL_261
+    '262': LABEL_262
+    '263': LABEL_263
+    '264': LABEL_264
+    '265': LABEL_265
+    '266': LABEL_266
+    '267': LABEL_267
+    '268': LABEL_268
+    '269': LABEL_269
+    '270': LABEL_270
+    '271': LABEL_271
+    '272': LABEL_272
+    '273': LABEL_273
+    '274': LABEL_274
+    '275': LABEL_275
+    '276': LABEL_276
+    '277': LABEL_277
+    '278': LABEL_278
+    '279': LABEL_279
+    '280': LABEL_280
+    '281': LABEL_281
+    '282': LABEL_282
+    '283': LABEL_283
+    '284': LABEL_284
+    '285': LABEL_285
+    '286': LABEL_286
+    '287': LABEL_287
+    '288': LABEL_288
+    '289': LABEL_289
+    '290': LABEL_290
+    '291': LABEL_291
+    '292': LABEL_292
+    '293': LABEL_293
+    '294': LABEL_294
+    '295': LABEL_295
+    '296': LABEL_296
+    '297': LABEL_297
+    '298': LABEL_298
+    '299': LABEL_299
+    '300': LABEL_300
+    '301': LABEL_301
+    '302': LABEL_302
+    '303': LABEL_303
+    '304': LABEL_304
+    '305': LABEL_305
+    '306': LABEL_306
+    '307': LABEL_307
+    '308': LABEL_308
+    '309': LABEL_309
+    '310': LABEL_310
+    '311': LABEL_311
+    '312': LABEL_312
+    '313': LABEL_313
+    '314': LABEL_314
+    '315': LABEL_315
+    '316': LABEL_316
+    '317': LABEL_317
+    '318': LABEL_318
+    '319': LABEL_319
+    '320': LABEL_320
+    '321': LABEL_321
+    '322': LABEL_322
+    '323': LABEL_323
+    '324': LABEL_324
+    '325': LABEL_325
+    '326': LABEL_326
+    '327': LABEL_327
+    '328': LABEL_328
+    '329': LABEL_329
+    '330': LABEL_330
+    '331': LABEL_331
+    '332': LABEL_332
+    '333': LABEL_333
+    '334': LABEL_334
+    '335': LABEL_335
+    '336': LABEL_336
+    '337': LABEL_337
+    '338': LABEL_338
+    '339': LABEL_339
+    '340': LABEL_340
+    '341': LABEL_341
+    '342': LABEL_342
+    '343': LABEL_343
+    '344': LABEL_344
+    '345': LABEL_345
+    '346': LABEL_346
+    '347': LABEL_347
+    '348': LABEL_348
+    '349': LABEL_349
+    '350': LABEL_350
+    '351': LABEL_351
+    '352': LABEL_352
+    '353': LABEL_353
+    '354': LABEL_354
+    '355': LABEL_355
+    '356': LABEL_356
+    '357': LABEL_357
+    '358': LABEL_358
+    '359': LABEL_359
+    '360': LABEL_360
+    '361': LABEL_361
+    '362': LABEL_362
+    '363': LABEL_363
+    '364': LABEL_364
+    '365': LABEL_365
+    '366': LABEL_366
+    '367': LABEL_367
+    '368': LABEL_368
+    '369': LABEL_369
+    '370': LABEL_370
+    '371': LABEL_371
+    '372': LABEL_372
+    '373': LABEL_373
+    '374': LABEL_374
+    '375': LABEL_375
+    '376': LABEL_376
+    '377': LABEL_377
+    '378': LABEL_378
+    '379': LABEL_379
+    '380': LABEL_380
+    '381': LABEL_381
+    '382': LABEL_382
+    '383': LABEL_383
+    '384': LABEL_384
+    '385': LABEL_385
+    '386': LABEL_386
+    '387': LABEL_387
+    '388': LABEL_388
+    '389': LABEL_389
+    '390': LABEL_390
+    '391': LABEL_391
+    '392': LABEL_392
+    '393': LABEL_393
+    '394': LABEL_394
+    '395': LABEL_395
+    '396': LABEL_396
+    '397': LABEL_397
+    '398': LABEL_398
+    '399': LABEL_399
+    '400': LABEL_400
+    '401': LABEL_401
+    '402': LABEL_402
+    '403': LABEL_403
+    '404': LABEL_404
+    '405': LABEL_405
+    '406': LABEL_406
+    '407': LABEL_407
+    '408': LABEL_408
+    '409': LABEL_409
+    '410': LABEL_410
+    '411': LABEL_411
+    '412': LABEL_412
+    '413': LABEL_413
+    '414': LABEL_414
+    '415': LABEL_415
+    '416': LABEL_416
+    '417': LABEL_417
+    '418': LABEL_418
+    '419': LABEL_419
+    '420': LABEL_420
+    '421': LABEL_421
+    '422': LABEL_422
+    '423': LABEL_423
+    '424': LABEL_424
+    '425': LABEL_425
+    '426': LABEL_426
+    '427': LABEL_427
+    '428': LABEL_428
+    '429': LABEL_429
+    '430': LABEL_430
+    '431': LABEL_431
+    '432': LABEL_432
+    '433': LABEL_433
+    '434': LABEL_434
+    '435': LABEL_435
+    '436': LABEL_436
+    '437': LABEL_437
+    '438': LABEL_438
+    '439': LABEL_439
+label2id:
+  desc: null
+  value:
+    acacia: 0
+    advocaat: 1
+    agar: 2
+    alcohol: 3
+    alfalfa: 4
+    almond: 5
+    alum: 6
+    amaranth: 7
+    amaretto: 8
+    amberjack: 9
+    ambrosia: 10
+    amino: 11
+    angelica: 12
+    angostura: 13
+    anise: 14
+    annatto: 15
+    apricot: 16
+    arrowroot: 17
+    arugula: 18
+    asafetida: 19
+    asafoetida: 20
+    avocado: 21
+    bacon: 22
+    banana: 23
+    barley: 24
+    basil: 25
+    batter: 26
+    bean: 27
+    beansprout: 28
+    bechamel: 29
+    beef: 30
+    beet: 31
+    beetroot: 32
+    bicarb: 33
+    bison: 34
+    bittersweet: 35
+    bluefish: 36
+    bonito: 37
+    bouillon: 38
+    bread: 39
+    breadfruit: 40
+    bream: 41
+    brine: 42
+    broccoli: 43
+    broth: 44
+    buckwheat: 45
+    bulgur: 46
+    burdock: 47
+    butter: 48
+    buttermilk: 49
+    butternut: 50
+    butterscotch: 51
+    cacao: 52
+    calamari: 53
+    calamondin: 54
+    candlenut: 55
+    canola: 56
+    cantaloup: 57
+    caper: 58
+    capon: 59
+    capsicum: 60
+    carambola: 61
+    caramel: 62
+    cardamom: 63
+    cardamon: 64
+    carob: 65
+    carp: 66
+    carrot: 67
+    cashew: 68
+    cassava: 69
+    cassia: 70
+    catfish: 71
+    catsup: 72
+    caviar: 73
+    celeriac: 74
+    cereal: 75
+    champignon: 76
+    chard: 77
+    cheddar: 78
+    chervil: 79
+    chestnut: 80
+    chicken: 81
+    chickpea: 82
+    chili: 83
+    chilli: 84
+    chipolata: 85
+    chive: 86
+    chorizo: 87
+    chutney: 88
+    cilantro: 89
+    cinnamon: 90
+    citron: 91
+    clam: 92
+    clove: 93
+    clover: 94
+    cocoa: 95
+    coconut: 96
+    cola: 97
+    collard: 98
+    condiment: 99
+    corn: 100
+    corncob: 101
+    cornflour: 102
+    cornmeal: 103
+    cornstarch: 104
+    cow: 105
+    cowpea: 106
+    cowslip: 107
+    crab: 108
+    crabstick: 109
+    crawdad: 110
+    crawfish: 111
+    crayfish: 112
+    cream: 113
+    creamer: 114
+    creme: 115
+    cress: 116
+    crumb: 117
+    crust: 118
+    cumin: 119
+    curd: 120
+    currant: 121
+    custard: 122
+    cuttlefish: 123
+    daikon: 124
+    damson: 125
+    dandelion: 126
+    deer: 127
+    dill: 128
+    dough: 129
+    duck: 130
+    eel: 131
+    egg: 132
+    eggplant: 133
+    erythritol: 134
+    escargot: 135
+    farina: 136
+    fat: 137
+    fatback: 138
+    fennel: 139
+    fenugreek: 140
+    feta: 141
+    fiber: 142
+    fiddlehead: 143
+    filo: 144
+    fish: 145
+    flesh: 146
+    floret: 147
+    flounder: 148
+    flour: 149
+    fluid: 150
+    fondant: 151
+    fresh: 152
+    fruit: 153
+    garbanzo: 154
+    garlic: 155
+    garnish: 156
+    gel: 157
+    gelatin: 158
+    ghee: 159
+    giblet: 160
+    ginger: 161
+    gingerbread: 162
+    gingersnap: 163
+    gizzard: 164
+    glaze: 165
+    glut: 166
+    gluten: 167
+    glycerin: 168
+    goat: 169
+    gourd: 170
+    grain: 171
+    granadilla: 172
+    granular: 173
+    grape: 174
+    grapefruit: 175
+    groundnut: 176
+    gum: 177
+    gumdrop: 178
+    haddock: 179
+    hake: 180
+    halibut: 181
+    ham: 182
+    hazelnut: 183
+    hemp: 184
+    herb: 185
+    honey: 186
+    honeycomb: 187
+    honeydew: 188
+    horseradish: 189
+    ice: 190
+    jackfruit: 191
+    jam: 192
+    jello: 193
+    kale: 194
+    kangaroo: 195
+    kasha: 196
+    kelp: 197
+    ketchup: 198
+    kielbasa: 199
+    kimchi: 200
+    kingfish: 201
+    kirsch: 202
+    kiwi: 203
+    kiwifruit: 204
+    kohlrabi: 205
+    kraut: 206
+    krill: 207
+    kumquat: 208
+    lamb: 209
+    lard: 210
+    lardon: 211
+    laurel: 212
+    laver: 213
+    leaf: 214
+    lecithin: 215
+    leek: 216
+    lemon: 217
+    lemongrass: 218
+    lentil: 219
+    lime: 220
+    liqueur: 221
+    liquid: 222
+    litchi: 223
+    liver: 224
+    liverwurst: 225
+    lobster: 226
+    longan: 227
+    loquat: 228
+    lox: 229
+    macadamia: 230
+    macaroni: 231
+    mackerel: 232
+    malt: 233
+    mangetout: 234
+    mango: 235
+    maraschino: 236
+    marinara: 237
+    marjoram: 238
+    marrow: 239
+    marshmallow: 240
+    marzipan: 241
+    mayo: 242
+    mealworm: 243
+    meat: 244
+    melon: 245
+    mesclun: 246
+    milk: 247
+    milkfish: 248
+    millet: 249
+    mincemeat: 250
+    mint: 251
+    mirin: 252
+    miso: 253
+    monkfish: 254
+    morel: 255
+    mozzarella: 256
+    muscat: 257
+    muscovado: 258
+    mush: 259
+    mushroom: 260
+    muskmelon: 261
+    mussel: 262
+    mustard: 263
+    mutton: 264
+    nasturtium: 265
+    nutmeat: 266
+    nutmeg: 267
+    oat: 268
+    oatmeal: 269
+    oil: 270
+    okra: 271
+    oleo: 272
+    onion: 273
+    oregano: 274
+    orgeat: 275
+    orzo: 276
+    oxtail: 277
+    oyster: 278
+    papaya: 279
+    paprika: 280
+    parmigiano: 281
+    parsley: 282
+    parsnip: 283
+    pate: 284
+    pea: 285
+    peach: 286
+    peanut: 287
+    pear: 288
+    pearl: 289
+    pecan: 290
+    pectin: 291
+    pepper: 292
+    peppercorn: 293
+    peppermint: 294
+    pepperoni: 295
+    perch: 296
+    persimmon: 297
+    pheasant: 298
+    phyllo: 299
+    pig: 300
+    pilchard: 301
+    pimento: 302
+    pimiento: 303
+    pistachio: 304
+    plantain: 305
+    plum: 306
+    polenta: 307
+    pollock: 308
+    pomelo: 309
+    popcorn: 310
+    pork: 311
+    potato: 312
+    powder: 313
+    prawn: 314
+    prosciutto: 315
+    protein: 316
+    prune: 317
+    pulp: 318
+    pumpkin: 319
+    quahog: 320
+    quail: 321
+    quark: 322
+    rabbit: 323
+    radicchio: 324
+    radish: 325
+    raisin: 326
+    ramp: 327
+    raw: 328
+    relish: 329
+    rennet: 330
+    rhubarb: 331
+    rice: 332
+    ricotta: 333
+    rind: 334
+    rockfish: 335
+    rose: 336
+    roux: 337
+    rusk: 338
+    rutabaga: 339
+    rye: 340
+    saffron: 341
+    sago: 342
+    salami: 343
+    salmon: 344
+    salt: 345
+    satsuma: 346
+    sauerkraut: 347
+    scallion: 348
+    scallop: 349
+    scampi: 350
+    schmaltz: 351
+    seafood: 352
+    seitan: 353
+    semolina: 354
+    shallot: 355
+    shellfish: 356
+    sherbet: 357
+    shrimp: 358
+    sirloin: 359
+    sloe: 360
+    soba: 361
+    soda: 362
+    solid: 363
+    sorghum: 364
+    sorrel: 365
+    sour: 366
+    soy: 367
+    soya: 368
+    soybean: 369
+    soymilk: 370
+    sparerib: 371
+    spearmint: 372
+    spelt: 373
+    spice: 374
+    spinach: 375
+    sprout: 376
+    squid: 377
+    starch: 378
+    starfruit: 379
+    starter: 380
+    streusel: 381
+    sturgeon: 382
+    suet: 383
+    sugar: 384
+    sultana: 385
+    sumac: 386
+    sumach: 387
+    swede: 388
+    sweet: 389
+    sweetcorn: 390
+    sweeten: 391
+    swordfish: 392
+    syrup: 393
+    tahini: 394
+    tamari: 395
+    tamarind: 396
+    tangelo: 397
+    tapioca: 398
+    taro: 399
+    tarragon: 400
+    tea: 401
+    tempeh: 402
+    tenderloin: 403
+    thyme: 404
+    tofu: 405
+    tomato: 406
+    tripe: 407
+    trout: 408
+    tuna: 409
+    turkey: 410
+    turnip: 411
+    vanilla: 412
+    veal: 413
+    venison: 414
+    vermicelli: 415
+    vermouth: 416
+    vinegar: 417
+    walnut: 418
+    wasabi: 419
+    watercress: 420
+    watermelon: 421
+    wheat: 422
+    whelk: 423
+    whey: 424
+    whitebait: 425
+    whitefish: 426
+    wholegrain: 427
+    wine: 428
+    wintergreen: 429
+    woodruff: 430
+    wrap: 431
+    yam: 432
+    yeast: 433
+    yellowtail: 434
+    yoghurt: 435
+    yogurt: 436
+    yolk: 437
+    zest: 438
+    zucchini: 439
+tokenizer_class:
+  desc: null
+  value: null
+prefix:
+  desc: null
+  value: null
+bos_token_id:
+  desc: null
+  value: null
+pad_token_id:
+  desc: null
+  value: 0
+eos_token_id:
+  desc: null
+  value: null
+sep_token_id:
+  desc: null
+  value: null
+decoder_start_token_id:
+  desc: null
+  value: null
+task_specific_params:
+  desc: null
+  value: null
+problem_type:
+  desc: null
+  value: multi_label_classification
+_name_or_path:
+  desc: null
+  value: microsoft/deberta-v3-base
+transformers_version:
+  desc: null
+  value: 4.39.3
+model_type:
+  desc: null
+  value: deberta-v2
+position_buckets:
+  desc: null
+  value: 256
+norm_rel_ebd:
+  desc: null
+  value: layer_norm
+share_att_key:
+  desc: null
+  value: true
+hidden_size:
+  desc: null
+  value: 768
+num_hidden_layers:
+  desc: null
+  value: 12
+num_attention_heads:
+  desc: null
+  value: 12
+intermediate_size:
+  desc: null
+  value: 3072
+hidden_act:
+  desc: null
+  value: gelu
+hidden_dropout_prob:
+  desc: null
+  value: 0.1
+attention_probs_dropout_prob:
+  desc: null
+  value: 0.1
+max_position_embeddings:
+  desc: null
+  value: 512
+type_vocab_size:
+  desc: null
+  value: 0
+initializer_range:
+  desc: null
+  value: 0.02
+relative_attention:
+  desc: null
+  value: true
+max_relative_positions:
+  desc: null
+  value: -1
+position_biased_input:
+  desc: null
+  value: false
+pos_att_type:
+  desc: null
+  value:
+  - p2c
+  - c2p
+vocab_size:
+  desc: null
+  value: 128100
+layer_norm_eps:
+  desc: null
+  value: 1.0e-07
+pooler_hidden_size:
+  desc: null
+  value: 768
+pooler_dropout:
+  desc: null
+  value: 0
+pooler_hidden_act:
+  desc: null
+  value: gelu
+output_dir:
+  desc: null
+  value: /local/xiaowang/food_ingredient/saved_models/approach2/text_classification_generated_lr5
+overwrite_output_dir:
+  desc: null
+  value: true
+do_train:
+  desc: null
+  value: true
+do_eval:
+  desc: null
+  value: true
+do_predict:
+  desc: null
+  value: true
+evaluation_strategy:
+  desc: null
+  value: epoch
+prediction_loss_only:
+  desc: null
+  value: false
+per_device_train_batch_size:
+  desc: null
+  value: 32
+per_device_eval_batch_size:
+  desc: null
+  value: 8
+per_gpu_train_batch_size:
+  desc: null
+  value: null
+per_gpu_eval_batch_size:
+  desc: null
+  value: null
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+eval_accumulation_steps:
+  desc: null
+  value: null
+eval_delay:
+  desc: null
+  value: 0
+learning_rate:
+  desc: null
+  value: 7.0e-05
+weight_decay:
+  desc: null
+  value: 0.0
+adam_beta1:
+  desc: null
+  value: 0.9
+adam_beta2:
+  desc: null
+  value: 0.999
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+max_grad_norm:
+  desc: null
+  value: 1.0
+num_train_epochs:
+  desc: null
+  value: 200.0
+max_steps:
+  desc: null
+  value: -1
+lr_scheduler_type:
+  desc: null
+  value: linear
+lr_scheduler_kwargs:
+  desc: null
+  value: {}
+warmup_ratio:
+  desc: null
+  value: 0.0
+warmup_steps:
+  desc: null
+  value: 0
+log_level:
+  desc: null
+  value: passive
+log_level_replica:
+  desc: null
+  value: warning
+log_on_each_node:
+  desc: null
+  value: true
+logging_dir:
+  desc: null
+  value: /local/xiaowang/food_ingredient/saved_models/approach2/text_classification_generated_lr5/runs/Apr11_10-15-07_tony-4.coli.uni-saarland.de
+logging_strategy:
+  desc: null
+  value: epoch
+logging_first_step:
+  desc: null
+  value: false
+logging_steps:
+  desc: null
+  value: 500
+logging_nan_inf_filter:
+  desc: null
+  value: true
+save_strategy:
+  desc: null
+  value: epoch
+save_steps:
+  desc: null
+  value: 500
+save_total_limit:
+  desc: null
+  value: null
+save_safetensors:
+  desc: null
+  value: true
+save_on_each_node:
+  desc: null
+  value: false
+save_only_model:
+  desc: null
+  value: false
+no_cuda:
+  desc: null
+  value: false
+use_cpu:
+  desc: null
+  value: false
+use_mps_device:
+  desc: null
+  value: false
+seed:
+  desc: null
+  value: 42
+data_seed:
+  desc: null
+  value: null
+jit_mode_eval:
+  desc: null
+  value: false
+use_ipex:
+  desc: null
+  value: false
+bf16:
+  desc: null
+  value: false
+fp16:
+  desc: null
+  value: false
+fp16_opt_level:
+  desc: null
+  value: O1
+half_precision_backend:
+  desc: null
+  value: auto
+bf16_full_eval:
+  desc: null
+  value: false
+fp16_full_eval:
+  desc: null
+  value: false
+tf32:
+  desc: null
+  value: null
+local_rank:
+  desc: null
+  value: 0
+ddp_backend:
+  desc: null
+  value: null
+tpu_num_cores:
+  desc: null
+  value: null
+tpu_metrics_debug:
+  desc: null
+  value: false
+debug:
+  desc: null
+  value: []
+dataloader_drop_last:
+  desc: null
+  value: false
+eval_steps:
+  desc: null
+  value: null
+dataloader_num_workers:
+  desc: null
+  value: 0
+dataloader_prefetch_factor:
+  desc: null
+  value: null
+past_index:
+  desc: null
+  value: -1
+run_name:
+  desc: null
+  value: /local/xiaowang/food_ingredient/saved_models/approach2/text_classification_generated_lr5
+disable_tqdm:
+  desc: null
+  value: false
+remove_unused_columns:
+  desc: null
+  value: true
+label_names:
+  desc: null
+  value: null
+load_best_model_at_end:
+  desc: null
+  value: true
+metric_for_best_model:
+  desc: null
+  value: loss
+greater_is_better:
+  desc: null
+  value: false
+ignore_data_skip:
+  desc: null
+  value: false
+fsdp:
+  desc: null
+  value: []
+fsdp_min_num_params:
+  desc: null
+  value: 0
+fsdp_config:
+  desc: null
+  value:
+    min_num_params: 0
+    xla: false
+    xla_fsdp_v2: false
+    xla_fsdp_grad_ckpt: false
+fsdp_transformer_layer_cls_to_wrap:
+  desc: null
+  value: null
+accelerator_config:
+  desc: null
+  value:
+    split_batches: false
+    dispatch_batches: null
+    even_batches: true
+    use_seedable_sampler: true
+deepspeed:
+  desc: null
+  value: null
+label_smoothing_factor:
+  desc: null
+  value: 0.0
+optim:
+  desc: null
+  value: adamw_torch
+optim_args:
+  desc: null
+  value: null
+adafactor:
+  desc: null
+  value: false
+group_by_length:
+  desc: null
+  value: false
+length_column_name:
+  desc: null
+  value: length
+report_to:
+  desc: null
+  value:
+  - wandb
+ddp_find_unused_parameters:
+  desc: null
+  value: null
+ddp_bucket_cap_mb:
+  desc: null
+  value: null
+ddp_broadcast_buffers:
+  desc: null
+  value: null
+dataloader_pin_memory:
+  desc: null
+  value: true
+dataloader_persistent_workers:
+  desc: null
+  value: false
+skip_memory_metrics:
+  desc: null
+  value: true
+use_legacy_prediction_loop:
+  desc: null
+  value: false
+push_to_hub:
+  desc: null
+  value: false
+resume_from_checkpoint:
+  desc: null
+  value: null
+hub_model_id:
+  desc: null
+  value: null
+hub_strategy:
+  desc: null
+  value: every_save
+hub_token:
+  desc: null
+  value: <HUB_TOKEN>
+hub_private_repo:
+  desc: null
+  value: false
+hub_always_push:
+  desc: null
+  value: false
+gradient_checkpointing:
+  desc: null
+  value: false
+gradient_checkpointing_kwargs:
+  desc: null
+  value: null
+include_inputs_for_metrics:
+  desc: null
+  value: false
+fp16_backend:
+  desc: null
+  value: auto
+push_to_hub_model_id:
+  desc: null
+  value: null
+push_to_hub_organization:
+  desc: null
+  value: null
+push_to_hub_token:
+  desc: null
+  value: <PUSH_TO_HUB_TOKEN>
+mp_parameters:
+  desc: null
+  value: ''
+auto_find_batch_size:
+  desc: null
+  value: false
+full_determinism:
+  desc: null
+  value: false
+torchdynamo:
+  desc: null
+  value: null
+ray_scope:
+  desc: null
+  value: last
+ddp_timeout:
+  desc: null
+  value: 1800
+torch_compile:
+  desc: null
+  value: false
+torch_compile_backend:
+  desc: null
+  value: null
+torch_compile_mode:
+  desc: null
+  value: null
+dispatch_batches:
+  desc: null
+  value: null
+split_batches:
+  desc: null
+  value: null
+include_tokens_per_second:
+  desc: null
+  value: false
+include_num_input_tokens_seen:
+  desc: null
+  value: false
+neftune_noise_alpha:
+  desc: null
+  value: null
+optim_target_modules:
+  desc: null
+  value: null
